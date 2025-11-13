@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Local Environment Secrets (CRITICAL)
+.env
+
+# Temporary files from our application
+uploads/
+deployments/
+tf_workspaces/
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# OS-specific files
+.DS_Store
